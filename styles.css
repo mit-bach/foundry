@@ -102,10 +102,13 @@ h1 {
 }
 
 .facts strong,
-.policies strong,
-.loop strong {
+.policies strong {
   display: block;
   margin-bottom: 0.15rem;
+  font-size: 0.98rem;
+}
+
+.loop strong {
   font-size: 0.98rem;
 }
 
