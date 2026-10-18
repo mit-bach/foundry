@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Foundry</title>
+  <meta name="description" content="The Foundry builds a company their own application of agents, then keeps it running.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="mark" href="#top">The Foundry</a>
+    <nav>
+      <a href="#what">What</a>
+      <a href="#site">The site</a>
+      <a href="#loop">The loop</a>
+      <a href="#now">Now</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <p class="kicker">Client applications of agents</p>
+    <h1>Agents that work in the tools a company already has.</h1>
+    <p class="lede">We build a company their own application, then we keep it running. The company uses that application. When it cannot do something, it asks the Foundry. We change the system, prove the change away from live accounts, and ship it back.</p>
+
+    <ul class="facts">
+      <li>
+        <strong>Their application</strong>
+        <span>The client never operates the Foundry. They use the application we deployed for them.</span>
+      </li>
+      <li>
+        <strong>Their tools</strong>
+        <span>Mail, books, scheduling, and the old screen with no connector stay where they are.</span>
+      </li>
+      <li>
+        <strong>One kernel</strong>
+        <span>The same small harness runs every client. A new client is a new set of files.</span>
+      </li>
+    </ul>
+
+    <section id="what">
+      <h2>What we are doing</h2>
+      <p>A small company already has a way of working. The Tuesday morning job happens in software they paid for years ago, including software that was never meant to be called by another program.</p>
+      <p>The Foundry puts agents inside that work. An adapter connects a tool that already has a connector. Where there is no connector, an agent learns one task on the real screen, writes the skill from a run that succeeded, and hands that skill to the bot that will own the system.</p>
+      <p>Skills start empty. They are filled from work that actually happened. A skill is allowed to change when the steps stop working. A repeated break comes back to the Foundry as a ticket, and the repair is checked again before it reaches every client that uses it.</p>
+    </section>
+
+    <section id="site">
+      <h2>What the company sees</h2>
+      <p>Their site shows what happened, what is waiting, and what an agent will not do without an answer. A question can be a choice, or their own words.</p>
+      <ul class="policies">
+        <li><strong>Run.</strong> The action is already allowed.</li>
+        <li><strong>Ask.</strong> The agent waits.</li>
+        <li><strong>Yes, and always.</strong> A repeated answer becomes the policy on that action.</li>
+      </ul>
+      <p>Anything that sends, pays, or deletes sits behind a gate. After the design is accepted, the questions live on the site. The client is not handed code.</p>
+    </section>
+
+    <section id="loop">
+      <h2>How a system is made</h2>
+      <ol class="loop">
+        <li><strong>Intake.</strong> The meeting, plus the tools, logins, and documents they already have.</li>
+        <li><strong>Business.</strong> Who they are, what they want, and what they use.</li>
+        <li><strong>Design.</strong> The agents, the adapters, and the gates.</li>
+        <li><strong>Check.</strong> The design is a file. A program checks it before a build starts.</li>
+        <li><strong>Build.</strong> Prompts, adapters, and the client site.</li>
+        <li><strong>Eval.</strong> A sandbox. A stand-in plays the outside world. Live accounts stay untouched.</li>
+        <li><strong>Deploy.</strong> One live copy. A change is tried beside it before it replaces the live one.</li>
+        <li><strong>Maintain.</strong> A break comes back as a ticket. The repair is evaluated again, then sent to each client it applies to.</li>
+      </ol>
+      <p>Only the live instance may touch the world. A sandbox holds no live password. A change that fails one client's checks is not pushed to that client.</p>
+    </section>
+
+    <section id="now">
+      <h2>Where it is</h2>
+      <p>We are building this for a few real clients. The harness, the client site, and the first adapters are in use on real tasks, including work in software that has no connector.</p>
+      <p class="who">Dominik Bach and Cerine</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>The Foundry</span>
+    <a href="https://github.com/mit-bach/foundry">github.com/mit-bach/foundry</a>
+  </footer>
+</body>
+</html>
